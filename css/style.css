@@ -1,0 +1,58 @@
+.text-block {
+	width: 90%;
+	padding: 15% 0 0 2%;
+	}
+	
+/* Typography ------------------------------------------*/
+
+h1 {
+	font-family: 'Arimo', Helvetica, sans-serif;
+	color: #1a1a1a;
+	font-size: 2.25em;
+	line-height: 1.15em;
+	display: block;
+	}
+	
+h1 a {
+	color: #1a1a1a;
+	text-decoration: none;	
+	}
+	
+h1 a:hover {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: #1a1a1a;
+	}
+
+
+h2 {
+	font-family: 'Arimo', Helvetica, sans-serif;
+	color: #1a1a1a;
+	font-size: 1.25em;
+	display: block;
+	}
+	
+h2 a {
+	color:blue;	
+	text-decoration: none;
+	}
+	
+h2 a:hover {
+	color:#1a1a1a;	
+	}
+	
+
+/* Highlight & Borders ------------------------------------------*/
+
+::selection {
+	background: blue; /* Safari */
+	color:#FFFFFF;
+	}
+::-moz-selection {
+	background: blue; /* Firefox */
+	color:#FFFFFF;
+	}
+::-webkit-selection {
+    background:blue; /* Chrome */
+    color:#FFFFFF;
+    }
+    
